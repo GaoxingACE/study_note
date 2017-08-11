@@ -1,4 +1,4 @@
 2017.08.11
  1、设计react组件的原则：
-    container组件（容器组件、聪明组件）负责与store的交流，用于初始化组件状态，同时要监听store的状态改变；当需要更新store状态是时，派发action对象
+    container组件（容器组件、聪明组件）负责与store的交流，用于初始化组件状态，同时要监听store的状态改变；当需要更新store状态时，派发action对象
     傻瓜组件（展示组件）根据当前props和state，渲染用户界面

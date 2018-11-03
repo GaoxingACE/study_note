@@ -1,0 +1,2 @@
+解压版zookeeper单机环境下须配置conf/zoo.cfg文件的dataDir属性，才可启动zookeeper。
+dubbo不能使用spring-boot的devtools工具，会导致无法调用服务方相应服务。（无论服务消费方还是提供方）

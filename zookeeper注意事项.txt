@@ -1,1 +1,0 @@
-解压版zookeeper单机环境下须配置conf/zoo.cfg文件的dataDir属性，才可启动zookeeper。
